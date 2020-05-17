@@ -1,0 +1,36 @@
+/* ----------------------------------------------- */
+/* ----------------- NAVBAR MODS --------------- */
+/* ----------------------------------------------- */
+.navbar-brand {
+  width: 35% !important;
+}
+.company-logo {
+  height: 40px;
+}
+
+.centered-nav li {
+  margin-right: 45px;
+}
+
+.right-nav {
+  width: 60%;
+}
+
+.contact-us {
+  border: 1px solid rgba(0,0,0,.5);
+}
+
+/* ----------------------------------------------- */
+/* ---------------- HEADER SECTION --------------- */
+/* ----------------------------------------------- */
+header {
+  background-color: #F1FFF1;
+}
+
+.left-side {
+  padding-left: 10% !important;
+}
+
+.rigt-side {
+  background-color: #F1FFF1;
+}
