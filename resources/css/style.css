@@ -1,36 +1,88 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 /* ----------------------------------------------- */
 /* ----------------- NAVBAR MODS --------------- */
 /* ----------------------------------------------- */
 .navbar-brand {
-  width: 35% !important;
+    width: 35% !important;
 }
 .company-logo {
-  height: 40px;
+    height: 40px;
 }
 
 .centered-nav li {
-  margin-right: 45px;
+    margin-right: 45px;
 }
 
 .right-nav {
-  width: 60%;
+    width: 60%;
 }
 
 .contact-us {
-  border: 1px solid rgba(0,0,0,.5);
+    border: 1px solid rgba(0,0,0,.5);
 }
 
+.nav-link {
+    font-size: 80%;   
+}
 /* ----------------------------------------------- */
 /* ---------------- HEADER SECTION --------------- */
 /* ----------------------------------------------- */
-header {
-  background-color: #F1FFF1;
-}
 
 .left-side {
-  padding-left: 10% !important;
+    padding: 7% 0 0 10% !important;
+    background-color: #FFF;
 }
 
+.hero-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.sub-hero {
+    font-weight: 300;
+    width: 80%;
+    margin-bottom: 1.1rem;
+}
+
+.get-started-button:link,
+.get-started-button:visited {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 7px 34px;
+    border: 1px solid #000000;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px #000;
+}
+
+.get-started-button:active,
+.get-started-button:hover {
+    text-decoration: none;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list img {
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.features-list li {
+    font-size: 79%;
+    color: rgba(0,0,0,.7);
+    margin-bottom: 7px;
+}
+
+
 .rigt-side {
-  background-color: #F1FFF1;
+    background-color: #F1FFF1;
 }
