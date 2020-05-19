@@ -287,17 +287,16 @@
 
 .contact-form-title {
     font-weight: 300;
+    margin-bottom: 0;
 }
 
-.separator {
-    display: inline-block;
+.contact-form-title::after {
+    display: block;
     height: 1px;
     background-color: #000;
     content: "";
-    width: 150px;
-    margin: 0 auto;
-    margin-top: 2px;
-	/* visibility: hidden; */
+    width: 200px;
+    margin: 5px 0 20px 55%;
 }
 
 .form-input {
@@ -305,17 +304,35 @@
     display: inline-block;
     margin-bottom: 20px;
     background-color: #fff;
+    padding: 5px;
+    width: 70%;
+    height: 35px;
+    font-size: 95%;
+    color: #a1a1a1;
 }
 
-.form-input
+.form-input:active,
+.form-input:focus {
+    outline: none;
+}
+
+.form-input::placeholder {
+    color: #a1a1a1;
+}
+
+#message-area {
+    height: 90px;
+    resize: none;
+}
 
 .contact-form-submit-button {
     color: #ffffff;
     background-color: #000000;
-    padding: 10px 50px;
+    padding: 6px 0;
     border: 1px solid #000000;
     font-size: 0.9rem;
     display: inline-block;
     margin-bottom: 20px;
     box-shadow: 0 2px 6px #000;
+    width: 70%;
 }
