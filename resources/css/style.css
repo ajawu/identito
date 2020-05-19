@@ -24,26 +24,32 @@
 }
 
 .nav-link {
-    font-size: 80%;   
+    font-size: 90%;   
 }
+
 /* ----------------------------------------------- */
 /* ---------------- HEADER SECTION --------------- */
 /* ----------------------------------------------- */
 
 .left-side {
-    padding: 7% 0 0 10% !important;
+    padding: 8% 0 0 10% !important;
     background-color: #FFF;
+    background-image: url(img/back_image.png);
+    /* background-position: center; */
+    background-size: cover;
 }
 
 .hero-text {
     font-size: 2.5rem;
     font-weight: 500;
+    background-color: transparent;
 }
 
 .sub-hero {
     font-weight: 300;
     width: 80%;
     margin-bottom: 1.1rem;
+    background-color: transparent;
 }
 
 .get-started-button:link,
@@ -82,7 +88,79 @@
     margin-bottom: 7px;
 }
 
+.features-list li:last-child {
+    margin-bottom: 60px;
+}
 
 .rigt-side {
     background-color: #F1FFF1;
+    overflow: hidden;
+    padding: 0;
 }
+
+.image-container {
+    text-align: center;
+    margin: 12% 0 0.5%;
+}
+
+.hero-image-title {
+    font-weight: 300;
+    font-size: 160%;
+    letter-spacing: .3px;
+    /* color: rgba(0,0,0,.5); */
+}
+
+.hero-image {
+    height: 250px;
+    width: auto;
+}
+
+.statistics-box {
+    background-color: #000000;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+}
+
+.facts-box {
+    width: 25%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.box-title {
+    font-size: 150%;
+    font-weight: 700;
+    margin: 0.7rem 0 0;
+}
+
+.box-content {
+    font-size: 85%;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+/* ----------------------------------------------- */
+/* -------------- WHO WE ARE SECTION ------------- */
+/* ----------------------------------------------- */
+
+.who-we-are-section {
+    padding: 70px 0 50px;
+    background-color: #F1FFF1;
+}
+
+.section-title {
+    width: 80%;
+    font-weight: 500;
+}
+
+.blue-highlight {
+    color: #005BAF;
+    display: inline;
+}
+
+.long-copy {
+    font-size: 90%;
+    color: #555;
+}
+
