@@ -35,7 +35,6 @@
     padding: 8% 0 0 10% !important;
     background-color: #FFF;
     background-image: url(img/back_image.png);
-    /* background-position: center; */
     background-size: cover;
 }
 
@@ -144,6 +143,12 @@
 /* -------------- WHO WE ARE SECTION ------------- */
 /* ----------------------------------------------- */
 
+.section-hero-text-small {
+    color: #00873E;
+    font-weight: 700;
+    font-size: 96%;
+}
+
 .who-we-are-section {
     padding: 70px 0 50px;
     background-color: #F1FFF1;
@@ -156,7 +161,10 @@
 
 .blue-highlight {
     color: #005BAF;
-    display: inline;
+}
+
+.green-highlight {
+    color: #00873E;
 }
 
 .long-copy {
@@ -164,3 +172,150 @@
     color: #555;
 }
 
+/* ----------------------------------------------- */
+/* ------------- WHY IDENTITO SECTION ------------ */
+/* ----------------------------------------------- */
+
+.why-section {
+    padding: 50px 0 30px;
+    background-image: url(img/back_image.png);
+    background-size: contain;
+}
+
+.why-section-title {
+    margin-top: 30%;
+    width: 80%;
+    font-weight: 700;
+    font-size: 205%;
+}
+
+.why-section-body {
+    color: #666;
+    font-size: 96%;
+    width: 85%;
+}
+
+.card {
+    box-shadow: 0 1px 15px #d4d4d4;
+    padding: 20px;
+    width: 78%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.last-card {
+    margin-top: 50%;
+    padding-bottom: 40px;
+}
+
+.card-image-container-green {
+    background-color: #beffbe;
+    padding: 5px 0;
+    width: 14%;
+    text-align: center;
+}
+
+.card-image-container-blue {
+    background-color: #F1F2FF;
+    padding: 5px 0;
+    width: 13%;
+    text-align: center;
+}
+
+.card-image {
+    height: 22px;
+    width: 24px;
+}
+
+.card-title {
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+.card-body {
+    color: #888;
+    padding: 0;
+    font-size: 79%;
+    width: 90%;
+}
+
+/* ----------------------------------------------- */
+/* ------------- HOW IT WORKS SECTION ------------ */
+/* ----------------------------------------------- */
+
+.section-hero-text-big {
+    width: 95%;
+    font-weight: 700;
+    font-size: 160%;
+}
+
+.how-it-works-section {
+    background-image: url(img/back_image.png);
+}
+
+/* ----------------------------------------------- */
+/* -------------- CONTACT US SECTION ------------- */
+/* ----------------------------------------------- */
+.contact-us-section {
+    padding: 70px 0;
+    background-image: url(img/back_image.png);
+    background-size: contain;
+}
+
+.contact-us-sub-head {
+    font-weight: 400;
+    font-size: 80%;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.contact-info-text {
+    color: #00873E;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.contact-image {
+    height: 240px;
+    width: 100%;
+}
+
+.form-container {
+    text-align: right;
+}
+
+.contact-form-title {
+    font-weight: 300;
+}
+
+.separator {
+    display: inline-block;
+    height: 1px;
+    background-color: #000;
+    content: "";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 2px;
+	/* visibility: hidden; */
+}
+
+.form-input {
+    border: 1px solid #000;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.form-input
+
+.contact-form-submit-button {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 50px;
+    border: 1px solid #000000;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px #000;
+}

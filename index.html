@@ -20,6 +20,11 @@
     <script src="vendors/js/jquery-3.5.1.slim.min.js"></script>
     <script src="vendors/js/popper.min.js"></script>
     <script src="vendors/js/bootstrap.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+
 </head>
 <body>
     <header>
@@ -71,7 +76,7 @@
         </nav>
         <div class="container-fluid">
             <div class="row">
-                <div class="col left-side">
+                <div class="col-sm left-side">
                     <h1 class="hero-text">
                         Scale the power of identity verification with ease
                     </h1>
@@ -86,7 +91,7 @@
                         <li><img src="resources/img/green-tick.png" alt="green-tick">Address Verification Service.</li>
                     </ul>
                 </div>
-                <div class="col rigt-side">
+                <div class="col-sm rigt-side">
                     <div class="image-container">
                         <h3 class="hero-image-title">Reliable. Easy</h3>
                         <img src="resources/img/Image 1_resized.png" alt="hero-image" class="hero-image">
@@ -113,7 +118,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <p>Who are we?</p>
+                    <p class="section-hero-text-small">Who are we?</p>
                 </div>
                 <div class="col">
                     <h4 class="section-title">We empower <span class="blue-highlight">innovation</span> in identity verification delivery</h4>
@@ -124,12 +129,98 @@
             </div>
         </div>
     </section>
-    <section>
-        
+    <section class="why-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h2 class="why-section-title">
+                        Why choose <span class="blue-highlight">Identito?</span>
+                    </h2>
+                    <p class="why-section-body">
+                        We have just one focus to build trust among individuals and African businesses.
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-image-container-green">
+                            <img src="resources/img/Vector.png" alt="people-icon" class="card-image">
+                        </div>
+                        <h6 class="card-title green-highlight">
+                            Wide Offline Agency Distribution Network
+                        </h6>
+                        <p class="card-body">
+                            Physical verifications of offline data via our wide agent network at every part of Nigeria, all AML and CBN compliant to keep customers at ease.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card last-card">
+                        <div class="card-image-container-blue">
+                            <img src="resources/img/mdi_smartphone.png" alt="people-icon" class="card-image">
+                        </div>
+                        <h6 class="card-title blue-highlight">
+                            Electronic Identity Verification
+                        </h6>
+                        <p class="card-body">
+                            Real time verification of over 100 million customers through 1 api to enable you improve customer due dilligence procedure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <p class="section-hero-text-small">
+                        How it works
+                    </p>
+                    <h2 class="section-hero-text-big">
+                        Our Reliable & Simple <span class="blue-highlight">Adress Verification Service</span>
+                    </h2>
+                </div>
+                <div class="col-sm"></div>
+                <div class="col-sm"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h2>Schedule a talk with us</h2>
+                            <p class="contact-us-sub-head">Contact us and we will get back to you shortly</p>
+                            <p class="contact-info-text">info@identito.com</p>
+                            <p class="contact-info-text">08134899905</p>
+                        </div>
+                        <div class="col-sm-7" style="padding: 0;">
+                            <img src="resources/img/person_on_phone_resized.png" alt="person-using-phone" class="contact-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 form-container">
+                    <form action="" method="POST" class="contact-form">
+                        <h4 class="contact-form-title">
+                            We're happy to hear from you
+                        </h4>
+                        <br>
+                        <input type="text" placeholder="Name" class="form-input" name="full-name" id="full-name">
+                        <br>
+                        <select name="contact-means" id="contact-means" class="form-input">
+                            <option value="">How did you find us?</option>
+                        </select>
+                        <br>
+                        <textarea name="message" id="message-area" cols="30" rows="4" placeholder="Drop us a line :)"></textarea><br>
+                        <button type="submit" class="contact-form-submit-button">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
   <script src="resources/js/app.js"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
 </body>
 </html>
