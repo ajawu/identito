@@ -252,13 +252,95 @@
 
 .how-it-works-section {
     background-image: url(img/back_image.png);
+    padding: 60px 0;
 }
 
+/* .how-it-works-image {
+    height: 100%;
+    width: 100%;
+} */
+
+.step-1-box {
+    margin-top: 300px;
+}
+
+.step-2-box {
+    margin-top: 155px;
+}
+
+.step-3-box {
+    margin-top: 0;
+}
+
+.step-count {
+    color: #eeeeee;
+    font-weight: 900;
+    font-size: 800%;
+    text-align: left;
+}
+
+.step-card {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.step-image-container {
+    display: inline-block;
+    padding: 11px 14px;
+    box-shadow: 0 2px 6px #b8b8b8;
+    margin-bottom: 20px;
+}
+
+.step-title {
+    font-weight: 700;
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+.step-content {
+    font-size: 85%;
+    color: #888;
+}
+
+.step-image {
+    height: 19px;
+    width: auto;
+}
+
+.blue-title {
+    color: #025099;
+}
+
+.green-title {
+    color: #006b32;
+}
+
+.red-title {
+    color: #bd0202;
+}
+
+.red-background {
+    background-color: #FFD2D2;
+    padding: 9px 18px;
+}
+
+.green-background {
+    background-color: #DDFFED;
+}
+
+.blue-background {
+    background-color: #DCEEFF;
+    padding: 12px 17px 9px;
+}
+
+.front-count {
+    display: none;
+}
 /* ----------------------------------------------- */
 /* -------------- CONTACT US SECTION ------------- */
 /* ----------------------------------------------- */
 .contact-us-section {
-    padding: 70px 0;
+    padding: 90px 0 80px;
     background-image: url(img/back_image.png);
     background-size: contain;
 }
