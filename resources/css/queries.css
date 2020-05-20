@@ -2,11 +2,19 @@
   .contact-form-title::after {
     margin: 5px 0 20px 45%;
   }
+
+  .right-legal-box {
+    padding-left: 11%;
+  }
 }
 
 @media (max-width: 991px) {
   .contact-form-title::after {
     margin: 5px 0 20px 25%;
+  }
+
+  .right-legal-box {
+    padding-left: 9%;
   }
 }
 
@@ -14,6 +22,10 @@
   .contact-form-title::after {
     width: 90px;
     margin: 5px 0 20px 53%;
+  }
+
+  .right-legal-box {
+    padding-left: 1%;
   }
 }
 
@@ -26,11 +38,64 @@
     visibility: hidden;
   }
 
-  .form-input {
+  .fake-input {
     width: 300px;
   }
 
+  .left-info-box {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border: none;
+  }
+
+  .right-legal-box {
+    text-align: center;
+    padding-left: 0;
+    border: none;
+    margin-top: 40px;
+  }
+
+  .newsletter-input {
+    width: 80%;
+  }
+
+  .newsletter-button {
+      width: 20%;
+  }
+
+  .contact-form-input {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 350px) {
+  .fake-input {
+    width: 250px;
+  }
+
+  .form-input {
+    width: 80%;
+  }
+
   .contact-form-submit-button {
-    width: 300px;
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 280px) {
+  .box-title {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 260px) {
+  .box-title {
+    font-size: 105%;
+  }
+
+  .fake-input {
+    width: 210px;
   }
 }

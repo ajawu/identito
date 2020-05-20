@@ -276,6 +276,14 @@
     font-size: 110%;
 }
 
+.email-text {
+    display: inline-block;
+}
+
+.small-arrow {
+    width: 15px;
+}
+
 .contact-image {
     height: 240px;
     width: 100%;
@@ -335,4 +343,138 @@
     margin-bottom: 20px;
     box-shadow: 0 2px 6px #000;
     width: 70%;
+}
+
+/* ----------------------------------------------- */
+/* ------------- FOOTER SECTION ------------ */
+/* ----------------------------------------------- */
+footer {
+    background-color: #F1FFF1;
+    padding: 60px 0;
+}
+
+.company-footer-logo {
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.left-info-box {
+    border-top: 1px solid #000;
+    margin-top: 120px;
+    padding-top: 20px;
+    padding-top: 20px;
+}
+
+.small-text {
+    font-size: 85%;
+}
+
+.smaller-text {
+    font-size: 70%;
+}
+
+.social-media-icons-list {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.social-media-icons-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-media-icon {
+    height: 20px;
+    width: auto;
+
+}
+
+.newsletter-box {
+    text-align: center;
+}
+
+.newsletter-title {
+    font-weight: 500;
+    display: inline-block;
+    font-size: 135%;
+    margin-bottom: 20px;
+}
+
+.fake-input {
+    display: inline-block;
+    border: 1px solid #000;
+    width: 60%;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form-input {
+    border: 1px solid #000;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 5px;
+    width: 70%;
+    height: 35px;
+    font-size: 95%;
+    color: #a1a1a1;
+}
+
+.contact-form-input:active,
+.contact-form-input:focus {
+    outline: none;
+}
+
+.contact-form-input::placeholder {
+    color: #a1a1a1;
+}
+
+.newsletter-input {
+    float: left;
+    border: none;
+    width: 80%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.newsletter-button {
+    float: left;
+    background-color: #000;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 4px #000;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+}
+
+.newsletter-button img {
+    width: 15px;
+}
+
+.right-legal-box {
+    border-top: 1px solid #000;
+    margin-top: 120px;
+    padding-top: 20px;
+    padding: 20px 0 0 15%;
+}
+
+.legal-title {
+    font-weight: 700;
+    font-size: 90%;
+}
+
+.legal-items-list {
+    list-style: none;
+    padding: 0;
+}
+
+.legal-items-list li {
+    display: block;
+    font-size: 75%;
+    color: #555;
+    margin-bottom: 20px;
 }
