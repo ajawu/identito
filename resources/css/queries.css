@@ -172,6 +172,12 @@
   }
 }
 
+@media (max-width: 300px) {
+  .hero-image {
+    height: 200px;
+  }
+}
+
 @media (max-width: 280px) {
   .box-title {
     font-size: 110%;
@@ -190,10 +196,26 @@
   .fake-input {
     width: 200px;
   }
+
+  .hero-image {
+    height: 170px;
+  }
 }
 
 @media (max-width: 230px) {
   .fake-input {
     width: 85%;
+  }
+
+  .hero-text {
+    font-size: 2.0rem;
+  }
+
+  .hero-image {
+    height: 130px;
+  }
+
+  .box-title {
+    font-size: 100%;
   }
 }
