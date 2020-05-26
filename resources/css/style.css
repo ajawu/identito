@@ -37,7 +37,7 @@ body {
 /* ----------------------------------------------- */
 
 .left-side {
-  padding: 8% 0 0 10% !important;
+  padding: 9% 0 0 10% !important;
   background-color: #fff;
   background-image: url(img/back_image.png);
   background-size: cover;
@@ -104,7 +104,7 @@ body {
 
 .image-container {
   text-align: center;
-  margin: 12% 0 0.5%;
+  margin: 18% 0 0.5%;
 }
 
 .hero-image-title {
