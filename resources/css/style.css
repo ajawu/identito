@@ -6,6 +6,11 @@
 body {
   overflow-x: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* ----------------------------------------------- */
 /* ----------------- NAVBAR MODS --------------- */
 /* ----------------------------------------------- */
@@ -259,11 +264,6 @@ body {
     font-size: 160%;
 }
 
-.how-it-works-section {
-    background-image: url(img/back_image.png);
-    padding: 60px 0;
-}
-
 .how-it-works-image {
     height: 100%;
     width: 100%;
@@ -317,6 +317,10 @@ body {
 .front-count {
     display: none;
 } */
+
+.how-it-works-section {
+  padding: 60px 0;
+}
 
 .step-image {
   height: 19px;
