@@ -25,4 +25,4 @@ setInterval(function() {
   document.getElementById("image-title").innerHTML = image_title_values[random_index];
   let elements_to_switch = document.getElementsByClassName('color-switch');
   Array.prototype.forEach.call(elements_to_switch, element =>  element.style.backgroundColor = color_codes[random_index]);
-  }, 5000);
+  }, 20000);
