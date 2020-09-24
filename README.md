@@ -1,3 +1,3 @@
 # Identito
 Landing page for Identito Website
-![image](https://drive.google.com/file/d/136_f2KlV67YFSmGdcERcvmaZy-soYomk/preview)
+![image](https://raw.githubusercontent.com/ajawu/identito/master/images/screencapture-identito-ng-2020-09-24-12_38_30.png)
